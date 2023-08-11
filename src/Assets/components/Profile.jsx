@@ -2,9 +2,9 @@ import React from 'react';
 
 function Profile() {
   return (
-    <div>
+    <div className='prof-container'>
       <div className="bg"></div>
-      <div className="dp"></div>
+      <div className="dp"><img src="./" alt="" srcset="" /></div>
     </div>
   );
 }
