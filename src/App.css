@@ -115,6 +115,15 @@
     
     /* About Page  */
 
+.about-heading
+{
+    color: #000;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;  
+}
+
+
 .bg
 {
     position: absolute;
@@ -189,6 +198,63 @@
 {
     color: #FFA800;
 }
+
+.edu-container
+{
+    position: absolute;
+    top: 110%;
+    padding: 0 5rem;
+}
+
+.head
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+}
+.line
+{
+    width: 75.5rem;
+    border: 2px solid black;  
+}
+
+.std
+{
+    display: flex;
+    align-items: center;
+    gap: 45rem;
+    padding: 1rem;
+    font-family: 'inter', sans-serif;
+    text-align: justify;
+}
+
+.year
+{
+    color: #FFA800;
+}
+.grade
+{
+    margin-top: 0.5rem;
+    font-size: 0.657rem;
+}
+
+.exp-container
+{
+    position: absolute;
+    top: 156%;
+    padding: 0 5rem;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px)
 {
