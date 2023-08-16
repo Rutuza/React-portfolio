@@ -10,23 +10,28 @@ function Experience() {
     <div className='exp-panel'>
         <div className='std'>
             <div className="year"><b>01 Jul - 31 Sep '22</b></div>
-            <div className='school'>
+            <div className='intern-type'>
                 <h3>Frontend Development Intern</h3>
-                <div></div>
+                <div className='grade'>hjdgfjgjdh</div>
             </div>
         </div>
+       
+    </div>
+    <div className='exp-panel'>
         <div className='std'>
-            <div className="year"><b>01 Jul - 05 Aug '23</b></div>
-            <div className='school'>
+            <div className="year"><b>01 Jul - 31 Sep '22</b></div>
+            <div className='intern-type'>
                 <h3>Web Development & Designing Intern</h3>
-                <div></div>
+                <div className='grade'>hjdgfjgjdh</div>
             </div>
         </div>
+    </div>
+    <div className='exp-panel'>
         <div className='std'>
-            <div className="year"><b>07 Jul - Present</b></div>
-            <div className='school'>
-                <h3>Fullstack (MERN) Intern</h3>
-                <div></div>
+            <div className="year"><b>01 Jul - 31 Sep '22</b></div>
+            <div className='intern-type'>
+                <h3>FullStack MERN Intern</h3>
+                <div className='grade'>hjdgfjgjdh</div>
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@ function Education() {
                 <div className="school">
                     <h3>Higher Secondary School</h3>
                     <div className='grade'>
-                    I received a divisional grade of 72.4% for my matriculation in the 2017&#8208;2018 school year at Ryan International School, Bhopal, Madhya Pradesh.
+                        I received a divisional grade of 72.4% for my matriculation in the 2017&#8208;2018 school year at Ryan International School, Bhopal, Madhya Pradesh.
                     </div>
                     
                 </div>
@@ -23,7 +23,7 @@ function Education() {
                 <div className="school">
                     <h3>Senior Secondary School</h3>
                     <div className='grade'>
-                    I received a divisional grade of 78.3% for my +2 in the 2019&#8208;2020 school year at RD Public School, Betul, Madhya Pradesh.
+                        I received a divisional grade of 78.3% for my +2 in the 2019&#8208;2020 school year at RD Public School, Betul, Madhya Pradesh.
                     </div>
                     
                 </div>
@@ -34,7 +34,7 @@ function Education() {
                 <div className="school">
                     <h3>Under Graduation</h3>
                     <div className='grade'>
-                    Pursuing Bachelor's of Technology from Amity University Madhya Pradesh Gwalior
+                        Pursuing Bachelor's of Technology from Amity University Madhya Pradesh Gwalior
                     </div>
                     
                 </div>
