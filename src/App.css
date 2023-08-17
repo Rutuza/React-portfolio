@@ -247,10 +247,20 @@
     padding: 0 5rem;
 }
 
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    margin-right: 24rem;
+    font-family: 'poppins', sans-serif;
+}
+
 .intern-type
 {
     position: absolute;
-    right: 24.6rem;
+    left: 54rem;
 }
 
 
