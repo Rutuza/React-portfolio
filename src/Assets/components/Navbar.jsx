@@ -12,7 +12,7 @@ function Navbar() {
                         <ul className="ele">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
-                            <li><a href="#">Skills</a></li>
+                            <li><a href="/skill">Skills</a></li>
                             <li><a href="#">Work</a></li>
                             <li><a href="#">Play</a></li>
                             <li><a href="#">Contact</a></li>

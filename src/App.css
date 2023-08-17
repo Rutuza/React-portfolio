@@ -214,20 +214,18 @@
     font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
 }
+
 .line
 {
     width: 75.5rem;
     border: 2px solid black;  
 }
 
-.std
+.edu-panel
 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 45rem;
-    padding: 1rem;
-    font-family: 'inter', sans-serif;
-    text-align: justify;
 }
 
 .year
@@ -245,22 +243,6 @@
     position: absolute;
     top: 156%;
     padding: 0 5rem;
-}
-
-.row
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
-    margin-right: 24rem;
-    font-family: 'poppins', sans-serif;
-}
-
-.intern-type
-{
-    position: absolute;
-    left: 54rem;
 }
 
 
