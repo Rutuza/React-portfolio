@@ -13,8 +13,6 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid black;
-    /* position: sticky;
-    top: 0; */
 }
 
 .menu-ele
@@ -113,7 +111,7 @@
        transform: translateY(0); */
     }
     
-    /* About Page  */
+/* About Page  */
 
 .about-heading
 {
@@ -122,7 +120,6 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.5rem;  
 }
-
 
 .bg
 {
@@ -186,8 +183,7 @@
     border-radius: 6px;
     background-color: #000;
     color: white;
-    padding: 0.5rem 0.5rem;
-    margin: 1rem 0.2rem;
+    margin: 2rem 0.2rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     position: absolute;
@@ -221,35 +217,45 @@
     border: 2px solid black;  
 }
 
-.edu-panel
+.education-section
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
-.year
-{
+  .row
+  {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .side-by-side, .year
+  {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .year
+  {
     color: #FFA800;
-}
-.grade
+  }
+ 
+.grade-info
 {
+    font-size: 0.9rem;
     margin-top: 0.5rem;
-    font-size: 0.657rem;
+    text-align: justify;
 }
 
 .exp-container
 {
     position: absolute;
-    top: 156%;
+    top: 170%;
     padding: 0 5rem;
+    
 }
-
-
-
-
-
-
 
 
 @media screen and (max-width: 900px)
@@ -274,11 +280,43 @@
     }
     .cv_btn
     {
-       
-        
         position: absolute; 
         top: 90%;
         left: 50%;
         transform: translate(-50%, 50%);  
     }
 }
+
+/* @media screen and (max-width: 900px)
+{
+    .cv_btn
+    {
+        position: absolute; 
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, 50%);  
+    }
+
+    .edu-container
+    {
+        position: absolute;
+        top: 120rem;
+        left: 2.5rem;
+        padding: 2rem 2rem;
+        width: 100%;
+    }
+
+    .institute-name
+    {
+        position: absolute;
+        text-align: left;
+    }
+    .exp-container
+    {
+        position: absolute;
+        top: 183rem;
+        left: 2.5rem;
+        padding: 2rem 2rem;
+        width: 100%;
+    }
+} */

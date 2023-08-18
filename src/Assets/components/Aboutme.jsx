@@ -3,8 +3,6 @@ import React from "react";
 function Aboutme() {
   return (
     <div className="about-container">
-      <div className="about-heading">About Me</div>
-
       <div className="page-content">
         <div className="inv-comma">"</div>
 
