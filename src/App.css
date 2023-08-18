@@ -285,38 +285,31 @@
         left: 50%;
         transform: translate(-50%, 50%);  
     }
-}
-
-/* @media screen and (max-width: 900px)
-{
-    .cv_btn
-    {
-        position: absolute; 
-        top: 98%;
-        left: 50%;
-        transform: translate(-50%, 50%);  
-    }
 
     .edu-container
     {
         position: absolute;
-        top: 120rem;
-        left: 2.5rem;
-        padding: 2rem 2rem;
+        top: 195%;
         width: 100%;
-    }
-
-    .institute-name
-    {
-        position: absolute;
-        text-align: left;
     }
     .exp-container
     {
         position: absolute;
-        top: 183rem;
-        left: 2.5rem;
-        padding: 2rem 2rem;
+        top: 270%;
         width: 100%;
     }
-} */
+}
+
+@media (min-width: 500px) and (max-width: 767px)
+{
+    .edu-container
+    {
+        width: 100%;
+    }
+    
+    .exp-container
+    {
+        margin-top: 5rem;
+    }
+    
+}
