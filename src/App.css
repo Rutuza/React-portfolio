@@ -93,10 +93,12 @@
     font-family: 'Ubuntu', sans-serif;
 
 }
+.elp{
+    padding: 1.3rem 0;
+}
 .elp >g >circle:nth-child(even) 
 {   fill: red;
     animation: pop 2s ease !important;
-
 }
 @keyframes pop {
 
@@ -113,94 +115,45 @@
     
 /* About Page  */
 
-.about-heading
+.ab-container, .edu-container, .exp-container
 {
-    color: #000;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.5rem;  
+  width: 100%;
+  padding: 2rem 2rem;
+  text-align: justify;
 }
 
-.bg
+.profile
 {
-    position: absolute;
-    top: 10rem;
-    left: 5rem;
-    width: 22rem;
-    height: 65vh;
-    border: 15px solid #FFA800;
+    width: 20rem;
+    height: 50vh;
+    border: 10px solid #FFA800;
+    margin: 2rem 2rem;
 }
 
-.inv-comma
+.ab-panel
 {
-    color: #FFA800;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif !important;
-    font-size: 6.25rem;
-    position: absolute;
-    top: 0;
-    left: 40rem;
-    margin-top: 3rem;  
-}
-
-.content
-{
-    font-family: 'Ubuntu', sans-serif;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 8rem 4rem 0 45rem;
-    font-size: 1.375rem;
+    display: flex;
+    gap: 15rem;
     text-align: justify;
-    font-family:'Poppins', sans-serif;
-    
+    flex-wrap: no-wrap;
 }
 
-.text
+.self-text
 {
-    color: #000;
-    font-weight: 400;
-    line-height: normal;
+    width: 100%; 
 }
 
-.info
+.personal-info 
 {
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
 
-.info li
+.personal-info > div
 {
-    list-style-type: none;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
 }
 
-.cv_btn
-{
-    width: 15rem;
-    height: 7vh;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 6px;
-    background-color: #000;
-    color: white;
-    margin: 2rem 0.2rem;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
-    position: absolute;
-    cursor: pointer;
-}
 
-.cv_btn:hover
-{
-    color: #FFA800;
-}
-
-.edu-container
-{
-    position: absolute;
-    top: 110%;
-    padding: 0 5rem;
-}
 
 .head
 {
@@ -247,69 +200,4 @@
     font-size: 0.9rem;
     margin-top: 0.5rem;
     text-align: justify;
-}
-
-.exp-container
-{
-    position: absolute;
-    top: 170%;
-    padding: 0 5rem;
-    
-}
-
-
-@media screen and (max-width: 900px)
-{
-    .prof-container
-    {
-        display: block;  
-        margin-left: auto;  
-        margin-right: auto;  
-    }
-    .inv-comma
-    {
-        position: absolute;
-        top: 40rem;
-        left: 1rem;
-    }
-    .content{
-        position: absolute;
-        top: 45rem;
-        left: 2.5rem;
-        padding: 2rem 2rem;       
-    }
-    .cv_btn
-    {
-        position: absolute; 
-        top: 90%;
-        left: 50%;
-        transform: translate(-50%, 50%);  
-    }
-
-    .edu-container
-    {
-        position: absolute;
-        top: 195%;
-        width: 100%;
-    }
-    .exp-container
-    {
-        position: absolute;
-        top: 270%;
-        width: 100%;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 767px)
-{
-    .edu-container
-    {
-        width: 100%;
-    }
-    
-    .exp-container
-    {
-        margin-top: 5rem;
-    }
-    
 }
