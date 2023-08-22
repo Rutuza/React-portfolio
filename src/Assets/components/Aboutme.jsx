@@ -8,19 +8,19 @@ function Aboutme() {
             
             <div className='ek-k-niche-ek'>
 
-            <div className="comma">"</div> 
-            <div className="self-text">
-                Mauris et purus sit amet nulla rutrum aliquet. Morbi pellentesque odio ipsum, at sodales neque luctus vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ut nisl velit. Sed eget felis nibh. Fusce faucibus eros dolor, quis sagittis nisi fringilla id. Vivamus eu nulla non risus cursus rutrum. Nunc hendrerit posuere lectus sit amet malesuada. Mauris et purus sit amet nulla rutrum aliquet. Morbi pellentesque odio ipsum, at sodales neque luctus vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ut nisl velit. Sed eget felis nibh. Fusce faucibus eros dolor, quis sagittis nisi fringilla id. Vivamus eu nulla non risus cursus rutrum. Nunc hendrerit posuere lectus sit amet malesuada. 
-            </div>
+                <div className="comma">"</div> 
+                <div className="self-text">
+                    Mauris et purus sit amet nulla rutrum aliquet. Morbi pellentesque odio ipsum, at sodales neque luctus vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ut nisl velit. Sed eget felis nibh. Fusce faucibus eros dolor, quis sagittis nisi fringilla id. Vivamus eu nulla non risus cursus rutrum. Nunc hendrerit posuere lectus sit amet malesuada. Mauris et purus sit amet nulla rutrum aliquet. Morbi pellentesque odio ipsum, at sodales neque luctus vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ut nisl velit. Sed eget felis nibh. Fusce faucibus eros dolor, quis sagittis nisi fringilla id. Vivamus eu nulla non risus cursus rutrum. Nunc hendrerit posuere lectus sit amet malesuada. 
+                </div>
 
-            <div className="personal-info">
-                <div className="info"><b>Name: </b>Jyotika Dalal</div>
-                <div className="info"><b>Phone: </b>(+91) 8319278208</div>
-                <div className="info"><b>Email: </b>dala.jyotika05@gmail.com</div>
-                <div className="info"><b>Social Media: </b>linked in</div>
-            </div>
+                <div className="personal-info">
+                    <div className="info"><b>Name: </b>Jyotika Dalal</div>
+                    <div className="info"><b>Phone: </b>(+91) 8319278208</div>
+                    <div className="info"><b>Email: </b>dala.jyotika05@gmail.com</div>
+                    <div className="info"><b>Social Media: </b>linked in</div>
+                </div>
 
-            <button className='dwn_cv'><div>Download CV</div></button>
+                <button className='dwn_cv'><div>Download CV</div></button>
             
          </div>
     </div> 
