@@ -119,12 +119,16 @@
 {
   width: 100%;
   padding: 2rem 2rem;
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .profile
 {
-    width: 20rem;
+    width: 100%;
+    max-width: 20rem;
     height: 50vh;
     border: 10px solid #FFA800;
     margin: 2rem 2rem;
@@ -133,11 +137,18 @@
 .ab-panel
 {
     display: flex;
-    gap: 15rem;
-    text-align: justify;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     flex-wrap: no-wrap;
 }
 
+.ek-k-niche-ek
+{
+    width: 50rem;
+    text-align: justify;
+    margin: 0 3rem;
+}
 .self-text
 {
     width: 100%; 
@@ -153,26 +164,42 @@
     padding: 0.5rem 0;
 }
 
+.dwn_cv
+{
 
+    border: #1c1b1b;
+    border-radius: 50px;
+    background-color: #1c1b1b;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
+.dwn_cv:hover
+{
+    color: #FFA800;
+}
 .head
 {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .line
 {
-    width: 75.5rem;
+    width: 90%;
     border: 2px solid black;  
 }
 
-.education-section
+.education-section, .experience-section
 {
     padding: 50px;
+    margin-top: 1rem;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
