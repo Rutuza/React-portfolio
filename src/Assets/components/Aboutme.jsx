@@ -60,6 +60,7 @@ function Aboutme() {
             </div>
         </div>
       </div>
+
 {/* Experience section starts */}
 <div className='exp-container'>
         <div className='head'>
@@ -82,7 +83,6 @@ function Aboutme() {
                     <h3 className="intern-type">Web Designer Intern</h3>
                     <div className="grade-info">
                         Collaborated with the design team to create visually appealing and intuitive website layouts. Utilized HTML and CSS to implement responsive designs that enhance user experience. Gained insights into user-centered design principles and design thinking methodologies.
-
                     </div>
                 </div>
             </div>
@@ -92,7 +92,6 @@ function Aboutme() {
                     <h3 className="intern-type">MERN Stack Development Intern</h3>
                     <div className="grade-info">
                         Worked on building web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack. Developed RESTful APIs and integrated them with the frontend components. Contributed to database design, data modeling, and efficient data storage using MongoDB.
-
                     </div>
                 </div>
             </div>

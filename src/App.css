@@ -145,7 +145,7 @@
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
-    /* margin: 5rem 0; */
+    margin: 4rem 0;
 }
 
 .ek-k-niche-ek
@@ -267,10 +267,34 @@
 
     .dwn_cv
     {
-        
+       transform: translateX(80%);
     }
 
 }
 
 /* Skills section styling starts here */
 
+.skill-set
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+.left
+{
+    width: 18rem;
+    height: 15vh;
+    border: 1px solid #1E1E1E;
+    border-radius: 0.625rem;
+    background: rgba(30, 30, 30, 0.81);
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+    
+}

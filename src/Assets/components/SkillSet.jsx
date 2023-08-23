@@ -10,9 +10,11 @@ function SkillSet() {
                     <div className="col-1">
                         <div className="html">HTML5</div>
                         <div>JavaScript</div>
-
                     </div>
-                    <div className="col-2"></div>
+                    <div className="col-2">
+                        <div>CSS</div>
+                        <div>Sass</div>
+                    </div>
                 </div>
             </div>
         </div>

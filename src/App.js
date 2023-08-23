@@ -5,8 +5,8 @@ import Skills from './Assets/pages/Skills';
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 function App() {
   return (
-    // <Skills/>
-    <About/>
+    <Skills/>
+    // <About/>
   );
 }
 
