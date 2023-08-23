@@ -5,7 +5,13 @@ function SkillSet() {
     <div className='sk-container'>
         <div className="sk-panel">
             <div className="skill-set">
-                <div className='left'></div>
+                <div className='left'>
+                    <div className="serial-no">01</div>
+                    <div className="skill-name">Frontend</div>
+                    <div className="desc">
+                        The creation of visually appealing and engaging aspects for websites' front ends allows for direct user interaction.
+                    </div>
+                </div>
                 <div className='right'>
                     <div className="col-1">
                         <div className="html">HTML5</div>

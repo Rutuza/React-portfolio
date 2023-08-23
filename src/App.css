@@ -246,6 +246,62 @@
     text-align: justify;
 }
 
+
+/* Skills section styling starts here */
+
+.skill-set
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    padding: 0 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.left
+{
+    position: relative;
+    width: 18rem;
+    height: 18vh;
+    border: 1px solid #1E1E1E;
+    border-radius: 0.625rem;
+    background: rgba(30, 30, 30, 0.81);
+}
+
+.serial-no
+{
+    color: white;
+    float: right;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+
+.skill-name
+{
+    position: absolute;
+    top: 0;
+    color: #FFA800;
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0 2rem;
+}
+
+.desc
+{
+    width: 13rem;
+    position: relative;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 0.63rem;
+    margin: 4rem 0 0 2rem;
+}
+.right
+{
+    display: flex;
+    margin-right: 10rem;
+    gap: 30px;
+    font-weight: 800;
+}
+
 @media screen and (max-width: 990px)
 {
     .profile
@@ -270,31 +326,4 @@
        transform: translateX(80%);
     }
 
-}
-
-/* Skills section styling starts here */
-
-.skill-set
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem;
-}
-.left
-{
-    width: 18rem;
-    height: 15vh;
-    border: 1px solid #1E1E1E;
-    border-radius: 0.625rem;
-    background: rgba(30, 30, 30, 0.81);
-}
-
-.right
-{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 50px;
-    
 }
