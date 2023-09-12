@@ -180,7 +180,6 @@
 
 .dwn_cv
 {
-
     border: #1c1b1b;
     border-radius: 5px;
     background-color: #1c1b1b;
@@ -248,16 +247,15 @@
 
 
 /* Skills section styling starts here */
-
 .skill-set
 {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin: 2rem;
-    padding: 0 2rem;
     font-family: 'Poppins', sans-serif;
 }
+
 .left
 {
     position: relative;
@@ -276,7 +274,7 @@
     font-size: 2rem;
 }
 
-.skill-name
+.skill-type
 {
     position: absolute;
     top: 0;
@@ -294,12 +292,25 @@
     font-size: 0.63rem;
     margin: 4rem 0 0 2rem;
 }
+
+.top, .btm
+{
+    display: flex;
+    gap: 30px;
+}
 .right
 {
     display: flex;
-    margin-right: 10rem;
-    gap: 30px;
-    font-weight: 800;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 5rem;   
+}
+.skill-name
+{
+    padding: 1rem;
 }
 
 @media screen and (max-width: 990px)
@@ -325,5 +336,4 @@
     {
        transform: translateX(80%);
     }
-
 }
