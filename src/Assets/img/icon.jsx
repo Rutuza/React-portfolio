@@ -1,6 +1,6 @@
 export const Svgellipse = (props) => {
   return (
-    <svg 
+    <svg
       width="1423"
       height="465"
       viewBox="0 0 1423 465"
@@ -232,3 +232,5 @@ export const Svgellipse = (props) => {
     </svg>
   );
 };
+
+

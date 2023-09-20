@@ -1,15 +1,11 @@
 import React from 'react';
 import Aboutme from '../components/Aboutme';
-import Navbar from '../components/Navbar';
-
-function About() {
+function AboutPage() {
   return (
     <div>
-      <Navbar/>
-      <Aboutme/>
+      <Aboutme />
     </div>
   );
 }
 
-export default About;
-
+export default AboutPage;

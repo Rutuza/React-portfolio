@@ -24,7 +24,7 @@ function Aboutme() {
             
          </div>
     </div> 
-{/* Education */}
+{/* Education section starts here */}
       <div className='edu-container'>
         <div className='head'>
             <h3 className='title'>Education</h3>
@@ -61,7 +61,7 @@ function Aboutme() {
         </div>
       </div>
 
-{/* Experience section starts */}
+{/* Experience section starts here */}
 <div className='exp-container'>
         <div className='head'>
             <h3 className='title'>Experience</h3>

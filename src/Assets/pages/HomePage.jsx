@@ -1,17 +1,12 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-// import Intro from "../components/Intro";
-// import Ellipse from "../components/Ellipse";
-// import Follow from "../components/Follow";
-function Home() {
+import React from 'react';
+import Index from '../components/Index';
+
+function HomePage() {
   return (
     <div>
-      <Navbar />
-      {/* <Intro /> */}
-      {/* <Ellipse /> */}
-      {/* <Follow /> */}
+      <Index />
     </div>
   );
 }
 
-export default Home;
+export default HomePage;
