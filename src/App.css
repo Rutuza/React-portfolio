@@ -137,71 +137,30 @@
 
 
 /* Skills section styling starts here */
-.skill-set
+
+.sk-headline
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5rem;
+}
+
+.sk-flex-container
 {
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    margin: 2rem;
-    font-family: 'Poppins', sans-serif;
+    gap: 2rem;
+    justify-content: center;
+    padding: 4rem 2rem;
+    font-family: 'poppins', sans-serif;
 }
 
-.left
+.left-sk-headline
 {
-    position: relative;
-    width: 18rem;
-    height: 18vh;
-    border: 1px solid #1E1E1E;
-    border-radius: 0.625rem;
-    background: rgba(30, 30, 30, 0.81);
-}
-
-.serial-no
-{
-    color: white;
-    float: right;
-    margin-right: 0.5rem;
-    font-size: 2rem;
-}
-
-.skill-type
-{
-    position: absolute;
-    top: 0;
-    color: #FFA800;
-    font-size: 1.3rem;
-    margin: 1.5rem 0 0 2rem;
-}
-
-.desc
-{
-    width: 13rem;
-    position: relative;
-    color: whitesmoke;
-    text-align: justify;
-    font-size: 0.63rem;
-    margin: 4rem 0 0 2rem;
-}
-
-.top, .btm
-{
-    display: flex;
-    gap: 30px;
-}
-.right
-{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 15rem;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    margin-left: 5rem;   
 }
-.skill-name
-{
-    padding: 1rem;
-}
+
+
 
 /* work page css */
 
@@ -245,7 +204,21 @@
     margin-top: 1rem;
 }
 
-
+.projects
+{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 5rem 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.cards
+{
+    width: 25rem;
+    height: 15rem;
+    background-color: #1E1E1E;
+}
 
 
 
