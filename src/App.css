@@ -258,9 +258,33 @@
         background: transparent;
         color: #FFA800;
     }
+}
 
-    /* .dwn_cv
+@media screen and (max-width: 550px)
+{
+    .dwn_cv
     {
-       transform: translateX(80%);
-    } */
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 50%;
+    }
+
+    .dwn_cv:hover
+    {
+        background: transparent;
+        color: #FFA800;
+    }
+
+    .row{
+        display: inline;
+        text-align: left;
+    }
+
+    .institute-name
+    {
+        margin-top: 0;
+    }
 }
