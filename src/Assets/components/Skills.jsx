@@ -2,19 +2,25 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="sk-container">
-        <div className="sk-panel">
-            <h1 className="sk-headline">Skills</h1>
-            <div className="sk-flex-container">
-                <div className="left-flex-body">
-                    <div className="left-sk-headline">My creative skills and knowledge about technology</div>
-                    <p className="left-flex-body-subtext">
-                    Mauris et purus sit amet nulla rutrum aliquet. Morbi pellentesque odio ipsum, at sodales neque luctus vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ut nisl velit. Sed eget felis nibh. Fusce faucibus eros dolor, quis sagittis nisi fringilla id. Vivamus eu nulla non risus cursus rutrum. Nunc hendrerit posuere lectus sit amet malesuada.
-                    </p>
-                </div>
-                <div className="right-flex-body">ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</div>
-            </div>
+    <div className="skills">
+      <h1>Skills</h1>
+      <div className="content">
+        <div className="left">
+          <h1>My creative skills and knowledge about technology</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dicta adipisci asperiores laboriosam soluta quis omnis nam beatae molestias optio provident, quasi libero! Suscipit eos perspiciatis eaque commodi dolorum aliquam atque provident harum distinctio alias, saepe quos nihil voluptates quo, laudantium corrupti, ratione deserunt voluptatem iure enim maxime? Illo rem dolor officiis voluptatibus ea libero, id nam maiores debitis, doloremque cupiditate repellendus vitae corrupti reiciendis blanditiis sint recusandae, nisi ipsum. Dolores, ex eos. Nam, incidunt voluptatum fugiat eveniet cumque unde voluptatem! Officiis ipsa illum magni omnis dolorem cupiditate vero dolorum nostrum hic, delectus maxime voluptatum mollitia voluptatem eaque ab, impedit nam itaque, maiores nesciunt odio temporibus autem aperiam! A, veniam sed at cumque adipisci accusantium corporis assumenda esse corrupti nemo!</p>
+
+          <a href="#">Read More</a>
         </div>
+
+        <div className="right">
+          <div className="line">
+            <div className="info">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
