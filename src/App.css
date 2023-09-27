@@ -72,7 +72,7 @@
 {
     border: #1c1b1b;
     border-radius: 5px;
-    background-color: #1c1b1b;
+    background-color: #1E1E1E;
     color: white;
     font-family: 'Poppins', sans-serif;
     margin-top: 2rem;
@@ -245,6 +245,22 @@
 
     .dwn_cv
     {
-       transform: translateX(80%);
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 35%;
     }
+
+    .dwn_cv:hover
+    {
+        background: transparent;
+        color: #FFA800;
+    }
+
+    /* .dwn_cv
+    {
+       transform: translateX(80%);
+    } */
 }
