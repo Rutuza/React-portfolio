@@ -40,6 +40,7 @@ function Aboutme() {
                     </div>
                 </div>
             </div>
+            
             <div className="row">
                 <div className="year"><b>2019 - 2020</b></div>
                 <div className="side-by-side">
@@ -49,6 +50,7 @@ function Aboutme() {
                     </div>
                 </div>
             </div>
+
             <div className="row">
                 <h3 className="year"><b>2020 - Present</b></h3>
                 <div className="side-by-side">

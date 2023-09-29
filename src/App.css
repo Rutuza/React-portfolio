@@ -26,6 +26,7 @@
     height: 50vh;
     border: 10px solid #FFA800;
     margin: 1rem 1rem;
+    text-align: center;
 }
 
 .ab-panel
@@ -118,12 +119,13 @@
   {
     display: flex;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 1rem;
   }
 
   .side-by-side, .year
   {
     flex: 1;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
   }
 
   .year
@@ -137,23 +139,6 @@
     margin-top: 0.5rem;
     text-align: justify;
 }
-
-
-/* Skills section styling starts here */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* work page css */
 
@@ -260,7 +245,7 @@
     }
 }
 
-@media screen and (max-width: 550px)
+@media screen and (max-width: 590px)
 {
     .dwn_cv
     {
