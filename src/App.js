@@ -7,10 +7,10 @@ import AboutPage from './Assets/pages/AboutPage';
 function App() {
   return (
     <div>
-      <AboutPage/>
+      {/* <AboutPage/> */}
       {/* <HomePage /> */}
       {/* <WorkPage/> */}
-      {/* <SkillsPage/> */}
+      <SkillsPage/>
     </div>
   );
 }

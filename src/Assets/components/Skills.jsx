@@ -15,8 +15,36 @@ function Skills() {
         <div className="right">
           <div className="line">
             <div className="info">
-              <span>HTML</span>
+              <span>C++</span>
+              <span>70%</span>
+            </div>
+          </div>
+
+          <div className="line">
+            <div className="info">
+              <span>CSS</span>
+              <span>78%</span>
+            </div>
+          </div>
+
+          <div className="line">
+            <div className="info">
+              <span>React</span>
+              <span>80%</span>
+            </div>
+          </div>
+
+          <div className="line">
+            <div className="info">
+              <span>SQL</span>
               <span>90%</span>
+            </div>
+          </div>
+
+          <div className="line">
+            <div className="info">
+              <span>Figma</span>
+              <span>85%</span>
             </div>
           </div>
         </div>
