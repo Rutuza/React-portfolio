@@ -18,6 +18,7 @@ function Skills() {
               <span>C++</span>
               <span>70%</span>
             </div>
+            <div className="bars"></div>
           </div>
 
           <div className="line">
@@ -25,6 +26,7 @@ function Skills() {
               <span>CSS</span>
               <span>78%</span>
             </div>
+            <div className="bars"></div>
           </div>
 
           <div className="line">
@@ -32,6 +34,7 @@ function Skills() {
               <span>React</span>
               <span>80%</span>
             </div>
+            <div className="bars"></div>
           </div>
 
           <div className="line">
@@ -39,6 +42,7 @@ function Skills() {
               <span>SQL</span>
               <span>90%</span>
             </div>
+            <div className="bars"></div>
           </div>
 
           <div className="line">
@@ -46,6 +50,7 @@ function Skills() {
               <span>Figma</span>
               <span>85%</span>
             </div>
+            <div className="bars"></div>
           </div>
         </div>
       </div>
