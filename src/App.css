@@ -19,14 +19,20 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.profile
+.ab-pagename
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+.profile-card
 {
     width: 100%;
     max-width: 20rem;
-    height: 50vh;
+    height: 55vh;
     border: 10px solid #FFA800;
     margin: 1rem 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 .ab-panel
@@ -119,7 +125,7 @@
   {
     display: flex;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .side-by-side, .year
@@ -211,7 +217,8 @@
 
 @media screen and (max-width: 990px)
 {
-    .profile
+    .profile-card
+
     {
         margin: auto;
         width: 50%;
@@ -266,6 +273,7 @@
     .row{
         display: inline;
         text-align: left;
+        margin-bottom: 2rem;
     }
 
     .institute-name

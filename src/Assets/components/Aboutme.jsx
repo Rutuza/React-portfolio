@@ -3,8 +3,9 @@ import React from 'react';
 function Aboutme() {
   return (
     <div className='ab-container'>
+        <h1 className='ab-pagename'>About Me</h1>
         <div className='ab-panel'>
-            <div className="profile"></div>
+            <div className="profile-card"></div>
             
             <div className='ek-k-niche-ek'>
 
@@ -40,7 +41,7 @@ function Aboutme() {
                     </div>
                 </div>
             </div>
-            
+
             <div className="row">
                 <div className="year"><b>2019 - 2020</b></div>
                 <div className="side-by-side">
