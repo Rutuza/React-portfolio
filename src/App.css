@@ -219,6 +219,77 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.right .info span{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+.right .bars{
+    background-color: lightgrey;
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.right .bars::before
+{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #FFA800;
+}
+
+.right .cpp::before
+{
+    width: 70%;
+}
+
+.right .html::before
+{
+    width: 90%;
+}
+.right .css::before
+{
+    width: 78%;
+}
+
+.right .react::before
+{
+    width: 80%;
+}
+
+.right .sql::before
+{
+    width: 92%;
+}
+
+.right .mongo::before
+{
+    width: 50%;
+}
+
+.right .uiux::before
+{
+    width: 85%;
+}
+
+.right .graphic::before
+{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
 /* work page css */
 
 .workbg

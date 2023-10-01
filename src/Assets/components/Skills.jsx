@@ -18,7 +18,15 @@ function Skills() {
               <span>C++</span>
               <span>70%</span>
             </div>
-            <div className="bars"></div>
+            <div className="bars cpp"></div>
+          </div>
+
+          <div className="line">
+            <div className="info">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div className="bars html"></div>
           </div>
 
           <div className="line">
@@ -26,7 +34,7 @@ function Skills() {
               <span>CSS</span>
               <span>78%</span>
             </div>
-            <div className="bars"></div>
+            <div className="bars css"></div>
           </div>
 
           <div className="line">
@@ -34,23 +42,39 @@ function Skills() {
               <span>React</span>
               <span>80%</span>
             </div>
-            <div className="bars"></div>
+            <div className="bars react"></div>
           </div>
 
           <div className="line">
             <div className="info">
               <span>SQL</span>
-              <span>90%</span>
+              <span>92%</span>
             </div>
-            <div className="bars"></div>
+            <div className="bars sql"></div>
           </div>
 
           <div className="line">
             <div className="info">
-              <span>Figma</span>
+              <span>MongoDB</span>
+              <span>50%</span>
+            </div>
+            <div className="bars mongo"></div>
+          </div>
+
+          <div className="line">
+            <div className="info">
+              <span>UI/UX Design</span>
               <span>85%</span>
             </div>
-            <div className="bars"></div>
+            <div className="bars uiux"></div>
+          </div>
+
+          <div className="line">
+            <div className="info">
+              <span>Graphic Design</span>
+              <span>60%</span>
+            </div>
+            <div className="bars graphic"></div>
           </div>
         </div>
       </div>
