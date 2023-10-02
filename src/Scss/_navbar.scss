@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap");
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    padding-block: 2rem;
+    width: 100vw;
+    border-bottom: 3px solid black;
+    .container {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    .logo {
+      font-size: 3rem;
+      font-family: "Poppins", sans-serif;
+      
+    }
+    .nav-item{
+        display: flex;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+      
+            li {
+              display: flex;
+              align-items: center;
+              font-size: 1.5rem;
+              padding-inline: 1rem;
+          }
+        }
+        .last-btn{
+            display: none;
+            @media screen and (max-width:800px){
+                padding-right: 10rem;
+                display: block;
+            }
+        }
+    }
+  }
+}

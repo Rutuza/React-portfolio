@@ -232,5 +232,40 @@ export const Svgellipse = (props) => {
     </svg>
   );
 };
-
-
+export const Navbutton = (props) => {
+  return (
+    <svg
+      width="38"
+      height="28"
+      viewBox="0 0 38 28"
+      fill={props.fill}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M2 2H36"
+        stroke="black"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M14 9.5L36 9.5"
+        stroke="black"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M2 18.5H36"
+        stroke="black"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M14 26L36 26"
+        stroke="black"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+    </svg>
+  );
+};
