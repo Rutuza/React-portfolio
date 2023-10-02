@@ -1,10 +1,10 @@
 import React from 'react';
-import Index from '../components/Index';
+import Home from '../components/Home';
 
 function HomePage() {
   return (
     <div>
-      <Index />
+      <Home/>
     </div>
   );
 }
