@@ -1,10 +1,10 @@
 import React from 'react';
-import Index from '../components/Index';
+import Navbar from '../components/Navbar';
 
 function HomePage() {
   return (
     <div>
-      <Index />
+      <Navbar/>
     </div>
   );
 }

@@ -1,10 +1,12 @@
-import React from 'react';
-import Projects from '../components/Projects';
+import React from "react";
+import Projects from "../components/Projects";
+import Navbar from "../components/Navbar";
 
 function WorkPage() {
   return (
     <div>
-      <Projects/>
+      <Navbar />
+      <Projects />
     </div>
   );
 }
