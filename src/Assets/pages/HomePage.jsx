@@ -32,7 +32,7 @@ function HomePage() {
           <div className="dot"></div>
         ))}
         <div className="image">
-          <Fingerprint/>
+          <Fingerprint className='finger'/>
         </div>
         </div>
       </div>
