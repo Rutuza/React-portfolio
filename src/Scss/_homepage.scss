@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+#home {
+  .hero {
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    .heading {
+      font-size: 3rem;
+      font-family: "Ubuntu", sans-serif;
+      padding-left: 10%;
+    }
+    .socials {
+      margin-top: 5rem;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      font-family: "Ubuntu", sans-serif;
+      font-size: 2rem;
+        transform: rotate(90deg);
+    }
+  }
+  
+}
