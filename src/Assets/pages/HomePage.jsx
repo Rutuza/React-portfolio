@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { Fingerprint } from "../img/icon";
 import {
   BiLogoInstagram,
   BiLogoPinterestAlt,
@@ -30,6 +31,9 @@ function HomePage() {
         {Array.from({ length: numberOfItems }, (_, index) => (
           <div className="dot"></div>
         ))}
+        <div className="image">
+          <Fingerprint/>
+        </div>
         </div>
       </div>
     </div>
