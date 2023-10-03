@@ -6,6 +6,7 @@ import {
   BiLogoLinkedin,
 } from "react-icons/bi";
 function HomePage() {
+  const numberOfItems = 160 *1.5; 
   return (
     <div>
       <Navbar />
@@ -22,6 +23,11 @@ function HomePage() {
             <BiLogoPinterestAlt className="icon pinterest" />
             <BiLogoLinkedin className="icon linkedin" />
           </div>
+        </div>
+        <div className="dots">
+        {Array.from({ length: numberOfItems }, (_, index) => (
+          <div className="dot"></div>
+        ))}
         </div>
       </div>
     </div>

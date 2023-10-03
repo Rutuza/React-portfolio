@@ -5,18 +5,35 @@
     margin-top: 10%;
     justify-content: space-between;
     .heading {
-      font-size: 3rem;
+      font-size: 200%;
       font-family: "Ubuntu", sans-serif;
       padding-left: 10%;
     }
     .socials {
-      margin-top: 5rem;
+      padding-top: 1%;
       display: flex;
       justify-content: center;
       position: relative;
       font-family: "Ubuntu", sans-serif;
-      font-size: 2rem;
+      font-size: 150%;
         transform: rotate(90deg);
+    }
+  }
+  .dots{
+    display:flex ;
+    align-items: baseline;
+    justify-content:start;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    width: 99vw;
+    height: 25rem;
+    overflow-y: hidden;add
+    .dot{
+      margin: 1rem;
+      background-color: black;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
     }
   }
   
