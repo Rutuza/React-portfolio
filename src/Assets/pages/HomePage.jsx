@@ -6,7 +6,7 @@ import {
   BiLogoLinkedin,
 } from "react-icons/bi";
 function HomePage() {
-  const numberOfItems = 160 *1.5; 
+  const numberOfItems = 1000;
   return (
     <div>
       <Navbar />
@@ -18,10 +18,12 @@ function HomePage() {
             <h6>Design and code what you think</h6>
           </div>
           <div className="socials">
-            <h6>Follow me on:</h6>
-            <BiLogoInstagram className="icon instagram" />
-            <BiLogoPinterestAlt className="icon pinterest" />
-            <BiLogoLinkedin className="icon linkedin" />
+            <div className="text">
+              <h6>Follow me on:</h6>
+              <BiLogoInstagram className="icon instagram" />
+              <BiLogoPinterestAlt className="icon pinterest" />
+              <BiLogoLinkedin className="icon linkedin" />
+            </div>
           </div>
         </div>
         <div className="dots">
