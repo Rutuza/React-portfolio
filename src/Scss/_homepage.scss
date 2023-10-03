@@ -13,11 +13,21 @@
       padding-left: 5%;
       width: 50%;
       height: 20vh;
+
+      .quote{
+        margin-top: 1%;
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+
       @media screen and (max-width: 1220px) {
         font-size: 2rem;
       }
       @media screen and (max-width: 797px) {
         font-size: 1.5rem;
+        .quote{
+          font-size: 1rem;
+        }
       }
     }
     .socials {

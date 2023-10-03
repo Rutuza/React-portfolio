@@ -16,7 +16,7 @@ function HomePage() {
           <div className="heading">
             <h1>Hi</h1>
             <h1>I am JYOTIKA DALAL</h1>
-            <h6>Design and code what you think</h6>
+            <h6 className="quote">Design and code what you think</h6>
           </div>
           <div className="socials">
             <div className="text">
