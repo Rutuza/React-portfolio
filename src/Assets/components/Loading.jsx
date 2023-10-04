@@ -4,9 +4,11 @@ function Loading() {
   return (
     <div className="loading">
       <div className="container">
-        <Barcode />
-        <div className="text">
-          <p>PORTFOLIO OF JYOTIKA DALAL</p>
+        <div className="animation">
+          <Barcode />
+          <div className="text">
+            <p>PORTFOLIO OF JYOTIKA DALAL</p>
+          </div>
         </div>
       </div>
     </div>
