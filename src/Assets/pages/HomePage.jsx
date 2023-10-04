@@ -1,16 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { Fingerprint } from "../img/icon";
+import Loading from '../components/Loading'
 import {
   BiLogoInstagram,
   BiLogoPinterestAlt,
   BiLogoLinkedin,
 } from "react-icons/bi";
 function HomePage() {
+  const [isLoading,setisLoading]=useState(false);
   const numberOfItems = 1000;
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setisLoading(true)
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <div>
-      <Navbar />
+      {
+        isLoading?
+        <div>
+        <Navbar />
       <div id="home">
         <div className="hero">
           <div className="heading">
@@ -36,6 +47,11 @@ function HomePage() {
         </div>
         </div>
       </div>
+        </div>
+      :
+        <Loading/>
+      
+      }
     </div>
   );
 }
