@@ -55,7 +55,7 @@
   .dots {
     display: flex;
     align-items: baseline;
-    justify-content: start;
+    justify-content: flex-start;
     margin-top: 3rem;
     flex-wrap: wrap;
     width: 100%;
@@ -82,10 +82,7 @@
       position: absolute;
       top: -15%;
       right: 5%;
-      .finger{
-        height: 250%;
-        width: 250%;
-      }
+      
     }
   }
 }
