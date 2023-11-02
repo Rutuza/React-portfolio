@@ -1,0 +1,136 @@
+.ab-container, .edu-container, .exp-container
+{
+  width: 100%;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ab-pagename
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+.profile-card
+{
+    width: 100%;
+    max-width: 20rem;
+    height: 55vh;
+    border: 10px solid #FFA800;
+    margin: 1rem 1rem;
+    text-align: left;
+}
+
+.ab-panel
+{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 0;
+}
+
+.ek-k-niche-ek
+{
+    width: 50rem;
+    text-align: justify;
+    margin: 0 3rem;
+}
+
+.comma
+{
+    color: #FFA800;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5rem;
+    margin-left: -4rem;
+
+}
+.self-text
+{
+    width: 100%; 
+}
+
+.personal-info 
+{
+    margin: 2rem 0;
+}
+
+.personal-info > div
+{
+    padding: 0.5rem 0;
+}
+
+.dwn_cv
+{
+    border: #1c1b1b;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dwn_cv:hover
+{
+    background: transparent;
+    border: 3px solid #FFA800;
+    color: #FFA800;
+}
+.head
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.line
+{
+    width: 90%;
+    border: 1px solid rgb(98, 97, 97);  
+}
+
+.education-section, .experience-section
+{
+    padding: 50px;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .row
+  {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
+  }
+
+  .side-by-side, .year
+  {
+    flex: 1;
+    padding: 10px 10px 0px 10px;
+  }
+
+  .year
+  {
+    color: #FFA800;
+  }
+ 
+.grade-info
+{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
