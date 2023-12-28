@@ -14,7 +14,7 @@ function Homepage2() {
             <Navbar/>
             <div id="inn-container">
                 <div className='lhs'>
-                    <h1>Hi <br /> I am <span id='text'>{text}</span>
+                    <h1>Hi <br /> I am Jyomtika bai<span id='text'>{text}</span>
                     <span id='cursor'><Cursor cursorStyle='|'/></span></h1>
                     <h5>Design and code what you think</h5>
                 </div>
