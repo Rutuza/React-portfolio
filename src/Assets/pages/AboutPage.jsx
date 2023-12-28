@@ -64,7 +64,7 @@ function AboutPage() {
         {/* Education section starts here */}
         <div id="edu">
           <div className="sec-name">
-            Education <span></span>
+            Education <span className="hr-line"></span>
           </div>
           <div className="edu_container">
             <div className="row">
@@ -126,7 +126,8 @@ function AboutPage() {
 
         <div id="exp">
           <div className="sec-name">
-            Experience <span></span>
+           Experience <span className="hr-line"></span>
+           
           </div>
           <div className="edu_container">
             <div className="row">
@@ -151,7 +152,7 @@ function AboutPage() {
               <div className="">
                 <b className="uni-name">Nullclass Ed.tech firm, Bangalore</b>
                 <br />
-                <b className="year">2019 - 2020</b>
+                <b className="year">07 Jul - Present</b>
               </div>
               <div className="side-by-side">
                 <h3 className="edu-type">

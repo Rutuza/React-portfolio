@@ -1,0 +1,26 @@
+@use 'variable';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Qwigley&family=Ubuntu&display=swap');
+#inn-container{
+    position: relative;
+    padding: 0% 4%;
+    .lhs{
+        position: absolute;
+        top: 15rem;
+        font-family: 'Ubuntu', sans-serif;
+
+        h1{
+            font-size: 4.5rem;
+            #text{
+                font-weight: bold;
+                color: green;
+            }
+            #cursor{
+                color: red;
+                
+            }
+        }
+        h5{
+            font-weight: 550;
+        }
+    }
+}

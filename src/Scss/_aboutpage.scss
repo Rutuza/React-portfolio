@@ -1,100 +1,5 @@
 @use'variable';
-// #ab-container {
-//   width: 100%;
-//   padding: 2rem 2rem;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   font-family: "poppins", sans-serif;
 
-//   .ab-pagename {
-//     font-family: "Josefin sans";
-//     font-style: italic;
-//     text-align: center;
-//   }
-
-//   .profile-card {
-//     width: 100%;
-//     max-width: 20rem;
-//     height: 55vh;
-//     border: 10px solid #ffa800;
-//     margin: 4rem 2rem;
-//   }
-
-//   .ab-panel {
-//     width: 100%;
-//     display: flex;
-//     // flex-wrap: wrap;
-//     align-items: center;
-//     justify-content: space-between;
-//     margin: 4rem 0;
-//   }
-//   .ek-k-niche-ek {
-//     width: 50rem;
-//     text-align: justify;
-//     margin: 0 3rem;
-//   }
-//   .comma {
-//     color: #ffa800;
-//     font-family: "Ubuntu", sans-serif;
-//     font-size: 5rem;
-//     margin-left: -4rem;
-//   }
-//   .self-text {
-//     width: 100%;
-//   }
-//   .personal-info {
-//     margin: 2rem 0;
-//   }
-
-//   .personal-info > div {
-//     padding: 0.5rem 0;
-//   }
-
-//   .dwn_cv {
-//     border: #1c1b1b;
-//     border-radius: 5px;
-//     background-color: #1e1e1e;
-//     color: white;
-//     font-family: "Poppins", sans-serif;
-//     margin-top: 2rem;
-//     padding: 1rem 4rem;
-//     font-size: 1rem;
-//     font-weight: 700;
-//     cursor: pointer;
-//   }
-
-//   .dwn_cv:hover {
-//     background: transparent;
-//     border: 3px solid #ffa800;
-//     color: #ffa800;
-//   }
-//   .head
-// {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     gap: 10px;
-//     margin-top: 3rem;
-//     font-size: 1.5rem;
-//     width: 100%;
-// }
-
-// .line
-// {
-//     width: 90%;
-//     border: 1px solid rgb(98, 97, 97);  
-// }
-
-// .education-section, .experience-section
-// {
-//     padding: 50px;
-//     margin-top: 1rem;
-//     background-color: #fff;
-//     border-radius: 5px;
-//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-//   }
-// }
 
 #about
 {
@@ -128,13 +33,13 @@
       .inv-comma{
         font-size: 4rem;
         font-family: 'poppins', sans-serif;
-        color: #C1A6F9;
+        color: #ffa800;
       }
 
       .intro
       {
         margin-left: 5%;
-        font-family: 'inter';
+        font-family: 'poppins', sans-serif;
         text-align: justify;
       }
 
@@ -153,13 +58,15 @@
         border-radius: 4px;
         background-color: black;
         color: #C1A6F9;
+        // color: #ffa800;
         padding: 2% 1%;
         margin: 0 5%;
-        font-size: 0.8rem;
+        font-size: 1rem;
+        font-weight: 700;
         cursor: pointer;
       }
       .dwn-btn:hover{
-        border: 2.5px solid #C1A6F9;
+        border: 3px solid #ffa800;
         background-color: transparent;
       }
 
@@ -173,14 +80,24 @@
     padding: 3% 3%;
     width: 100%;
     font-family: 'poppins', sans-serif;
-    
+
     .sec-name{
       font-size: 2rem;
+
+      .hr-line{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        border: 1.5px solid black;
+      }
+      }
     }
+
 
     .row{
       margin-top: 2%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       font-family: 'poppins', sans-serif;
 
@@ -205,6 +122,6 @@
       }
     }
   }
-}
+
 
 

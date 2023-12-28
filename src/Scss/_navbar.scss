@@ -1,43 +1,103 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Qwigley&display=swap');
 
-#navbar {
-  display: flex;
-  justify-content: center;
-  padding-block: 1%;
-  width: 100vw;
-  border-bottom: 3px solid black;
-  .container {
+// #navbar {
+//   display: flex;
+//   // justify-content: center;
+//   // padding-block: 1%;
+//   padding: 1% 1%;
+//   width: 100vw;
+//   align-items: center;
+//   border-bottom: 2px solid black;
+
+//   .container {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     width: 90%;
+//     .logo {
+//       font-size: 100%;
+//       font-family: "Poppins", sans-serif;
+//     }
+//     .nav-item {
+//       display: flex;
+      
+//       ul {
+//         display: flex;
+//         list-style-type: none;
+        
+//         li {
+//           display: flex;
+//           align-items: center;
+//           font-family: "Poppins", sans-serif;
+//           font-size: 1.2em;
+//           padding-inline: 1rem;
+//           font-weight: 500;
+//         }
+//       }
+//       .last-btn {
+//         // display: none;
+//         @media screen and (max-width: 800px) {
+//           padding-right: 10rem;
+//           display: block;
+//         }
+//       }
+//     }
+//   }
+// }
+
+#navbar{
+  padding: 0% 1%;
+  border-bottom: 2px solid black;
+  .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    .logo {
-      font-size: 200%;
-      font-family: "Poppins", sans-serif;
-    }
-    .nav-item {
+
+    .logo{
       display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
       
-      ul {
+      .symbol{
+        font-size: 50px;
+        font-family: 'Qwigley', cursive;
+      }
+
+      h5{
+          font-family: 'poppins', sans-serif;
+          font-size: 0.6rem;
+          font-weight: 500;
+      }
+    }
+
+    .nav-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      ul{
         display: flex;
         list-style-type: none;
-        
-        li {
-          display: flex;
-          align-items: center;
-          font-family: "Poppins", sans-serif;
-          font-size: 1.5em;
-          padding-inline: 1rem;
-          font-weight: 500;
+
+        li{
+          padding-inline: 0.8rem;
+          font-size: 1rem;
+          font-weight: 590;
+          font-family: 'poppins', sans-serif;
+          cursor: pointer;
         }
       }
-      .last-btn {
-        display: none;
+      .last-btn{
+        // display: none;
         @media screen and (max-width: 800px) {
           padding-right: 10rem;
           display: block;
         }
       }
+
     }
   }
 }
+
