@@ -4,16 +4,15 @@ import Navbar from "../components/Navbar";
 
 function AboutPage() {
   return (
-    <div>
+    <div id="about">
       <Navbar />
-      <div id="about">
-        <div className="pagename">About Me</div>
+        <center className="pagename">About Me</center>
         <div id="flex-container">
           <div className="card"></div>
           <div className="about-content">
             <div className="inv-comma">"</div>
             <div className="intro">
-              As a Final Year Computer Science student at Amity University,
+              I am a Final Year Computer Science student at Amity University,
               Gwalior (M.P), I get to combine my love for technology with my
               passion for art and design. I have strong passion for Web
               Development, UI/UX Designing and Database. I enjoy using my
@@ -27,7 +26,7 @@ function AboutPage() {
                   <b>Name: </b>Jyotika Dalal
                 </div>
                 <div className="phn">
-                  <b>Phone: </b>(+91)8319278208
+                  <b>Phone: </b>(+91) 8319278208
                 </div>
                 <div className="email">
                   <b>Email: </b>dalal.jyotika05@gmail.com
@@ -167,7 +166,7 @@ function AboutPage() {
 
           </div>
         </div>
-      </div>
+      
     </div>
   );
 }

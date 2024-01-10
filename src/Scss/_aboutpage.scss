@@ -3,19 +3,19 @@
 
 #about
 {
+  width: 100%;
   .pagename
   {
-    text-align:center;
     font-family: 'Josefin sans', sans-serif;
     font-size: 2rem;
     margin-top: 2%;
     font-style: italic;
     font-weight: 700;
   }
-
+  
   #flex-container
   {
-    padding: 3% 3%;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,8 +57,8 @@
         border: 2px solid black;
         border-radius: 4px;
         background-color: black;
-        color: #C1A6F9;
-        // color: #ffa800;
+        // color: #C1A6F9;
+        color: #ffa800;
         padding: 2% 1%;
         margin: 0 5%;
         font-size: 1rem;
@@ -75,9 +75,8 @@
     }
   }
   
-  // education section css
   #edu, #exp{
-    padding: 3% 3%;
+
     width: 100%;
     font-family: 'poppins', sans-serif;
 
