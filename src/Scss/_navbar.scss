@@ -85,22 +85,26 @@
           text-decoration: none;
           color: black;
           font-weight: 590;
+
+          li{
+            padding-inline: 0.8rem;
+            font-size: 1rem;
+            font-family: 'poppins', sans-serif;
+            cursor: pointer;
+          }
+
+          
         }
         
-        li{
-          padding-inline: 0.8rem;
-          font-size: 1rem;
-          font-family: 'poppins', sans-serif;
-          cursor: pointer;
-        }
       }
-      .last-btn{
-        // display: none;
-        @media screen and (max-width: 800px) {
-          padding-right: 10rem;
-          display: block;
-        }
-      }
+
+      // .last-btn{
+      //   // display: none;
+      //   @media screen and (max-width: 800px) {
+      //     padding-right: 10rem;
+      //     display: block;
+      //   }
+      // }
 
     }
   }

@@ -18,9 +18,9 @@ function Navbar() {
             <a href="/contact"><li>Contact</li></a>
           </ul>
           
-          <div className="last-btn">
+          {/* <div className="last-btn">
             <Navbutton className="icon" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
