@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import pfp from "../SVG/pfp.svg"
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 // import Aboutme from '../components/Aboutme';
 
 function AboutPage() {
@@ -39,21 +42,13 @@ function AboutPage() {
                 </div>
                 <div className="social">
                   <b>Social: </b>
-                  <a
-                    href="https://www.linkedin.com/in/jyotika-dalal-2bb242240/"
-                    target="_blank"
-                  >
-                    Linkedin
-                  </a>
-                  <a href="https://github.com/Rutuza" target="_blank">
-                    GitHub
-                  </a>
-                  <a
-                    href="https://www.instagram.com/rxtu_004/?next=%2F"
-                    target="_blank"
-                  >
-                    Instagram
-                  </a>
+                  <span>
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/jyotika-dalal-2bb242240/" target="_blank"><FaLinkedin /></a></li>
+                      <li><a href="https://github.com/Rutuza" target="_blank"><FaGithub /></a></li>
+                      <li><a href="https://www.instagram.com/rxtu_004/?next=%2F" target="_blank"><AiFillInstagram /></a></li>
+                    </ul>
+                  </span>
                 </div>
               </div>
             </div>
