@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import pfp from "../SVG/pfp.svg"
 // import Aboutme from '../components/Aboutme';
 
 function AboutPage() {
@@ -8,7 +9,9 @@ function AboutPage() {
       <Navbar />
         <center className="pagename">About Me</center>
         <div id="flex-container">
-          <div className="card"></div>
+          <div className="pfp">
+            <img src={pfp} alt="" srcset="" />
+          </div>
           <div className="about-content">
             <div className="inv-comma">"</div>
             <div className="intro">
