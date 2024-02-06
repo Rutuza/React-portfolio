@@ -2,7 +2,7 @@ import React from "react";
 import { Navbutton } from "../img/icon";
 function Navbar() {
   return (
-    <div className="navbar" id="navbar">
+    <nav className="navbar" id="navbar">
       <div className="container">
         <div className="logo">
           <div className="symbol">J</div>
@@ -23,7 +23,7 @@ function Navbar() {
           </div> */}
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

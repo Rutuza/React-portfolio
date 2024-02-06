@@ -1,1 +1,35 @@
-@use 'variable'
+@use 'variable';
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Qwigley&display=swap');
+
+.skills-para-one{
+    max-width: 60%;
+    font-family: 'poppins', sans-serif;
+    
+    p{
+        text-align: justify;
+        margin-top: 3%;
+    }
+}
+
+.skills-dark-bg{
+    background-color: #454444;
+
+    .my-skills{
+        color: white;
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem;
+            flex-wrap: wrap;
+
+            li{
+                text-decoration: none;
+                list-style-type: none;
+                padding: 1rem;
+            }
+        }
+
+    }
+}

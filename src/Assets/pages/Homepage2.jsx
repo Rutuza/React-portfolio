@@ -20,7 +20,7 @@ function Homepage2() {
                             {text}
                         </span>
                     <span id='cursor'><Cursor/></span></h1>
-                    <h5>Design and code what you think</h5>
+                    <h5 className='quote'>Design and code what you think</h5>
                 </div>
                 <div className='rhs'></div>
             </div>

@@ -11,9 +11,11 @@ function AboutPage() {
     <div id="about">
       <Navbar />
         <center className="pagename">About Me</center>
+
         <div id="flex-container">
           <div className="pfp">
-            <img src={pfp} alt="" srcset="" />
+            {/* <img src={pfp} alt="" srcset="" /> */}
+            <div className="pfp-circle"></div>
           </div>
           <div className="about-content">
             <div className="inv-comma">"</div>
