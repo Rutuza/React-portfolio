@@ -15,12 +15,17 @@
                 color: green;
             }
             #cursor{
-                color: red;
-                
+                color: red;    
             }
         }
-        .quote{
-            
+    }
+
+    .rhs{
+        position: absolute;
+        right: 2rem;
+
+        img{
+            margin-right: -3%;
         }
     }
 }

@@ -11,11 +11,11 @@ function Navbar() {
 
         <div className="nav-item">
           <ul>
-            <a href="/"><li>Home</li></a>
-            <a href="/about"><li>About</li></a>
-            <a href="/skills"><li>Skills</li></a>
-            <a href="/work"><li>Work</li></a>
-            <a href="/contact"><li>Contact</li></a>
+            <a href="/"><li className="list">Home</li></a>
+            <a href="/about"><li className="list">About</li></a>
+            <a href="/skills"><li className="list">Skills</li></a>
+            <a href="/work"><li className="list">Work</li></a>
+            <a href="/contact"><li className="list">Contact</li></a>
           </ul>
           
           {/* <div className="last-btn">

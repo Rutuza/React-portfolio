@@ -7,10 +7,12 @@
 }
 
 nav{
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   border-bottom: 2px solid black;
   padding: 0;
+  background-color: white;
   
   .container{
     display: flex;
@@ -50,26 +52,16 @@ nav{
           color: black;
           font-weight: 590;
 
-          li{
+          .list{
             padding-inline: 0.8rem;
             font-size: 1rem;
+            font-weight: 700;
             font-family: 'poppins', sans-serif;
             cursor: pointer;
-          }
-
-          
-        }
-        
+           
+          }    
+        }      
       }
-
-      // .last-btn{
-      //   // display: none;
-      //   @media screen and (max-width: 800px) {
-      //     padding-right: 10rem;
-      //     display: block;
-      //   }
-      // }
-
     }
   }
 }

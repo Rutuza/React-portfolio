@@ -2,34 +2,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Qwigley&display=swap');
 
-.skills-para-one{
-    max-width: 60%;
-    font-family: 'poppins', sans-serif;
-    
-    p{
-        text-align: justify;
-        margin-top: 3%;
+#skills{
+    .pagename{
+        font-family: "Josefin sans", sans-serif;
+        font-size: 2rem;
+        margin-top: 8%;
+        font-style: italic;
+        font-weight: 700;
     }
-}
 
-.skills-dark-bg{
-    background-color: #454444;
+    .sk-container{
+        margin-top: 3%;
+        font-family: 'poppins', sans-serif;
+        // position: absolute;
+        // left: 0;
+        padding-left: 1%;
 
-    .my-skills{
-        color: white;
-        ul{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 1rem;
-            flex-wrap: wrap;
-
-            li{
-                text-decoration: none;
-                list-style-type: none;
-                padding: 1rem;
-            }
+        h1{
+            font-size: 2rem;            
         }
 
+        p{
+            margin-top: 1%;
+            width: 49%;
+            text-align: justify;
+        }
+
+        
     }
+    
 }
