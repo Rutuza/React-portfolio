@@ -5,26 +5,6 @@ import logo from "../SVG/logo.svg";
 
 function Navbar() {
   return (
-    // <header className="navbar" id="navbar">
-    //   <div className="container">
-    //     <div className="logo">
-    //       <div className="symbol">J</div>
-    //       <h5>Jyotika <br />Dalal</h5>
-    //     </div>
-
-    //     <nav className="nav-item">
-    //       <ul>
-    //         <a href="/"><li className="list">Home</li></a>
-    //         <a href="/about"><li className="list">About</li></a>
-    //         <a href="/skills"><li className="list">Skills</li></a>
-    //         <a href="/work"><li className="list">Work</li></a>
-    //         <a href="/contact"><li className="list">Contact</li></a>
-    //       </ul>
-          
-    //     </nav>
-    //   </div>
-    // </header>
-
     <header id="header">
       <div className="container">
         <div className="logo">

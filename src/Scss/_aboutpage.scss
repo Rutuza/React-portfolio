@@ -5,13 +5,11 @@
 {
   // background-color: #E2E2E2;
   width: 100%;
-  padding-bottom: 3%;
-  z-index: 10;
   .pagename
   {
     font-family: 'Josefin sans', sans-serif;
     font-size: 2rem;
-    margin-top: 8%;
+    margin-top: 2%;
     font-style: italic;
     font-weight: 700;
 
@@ -98,9 +96,13 @@
       } 
     }
   }
-  
+
   #edu, #exp{
     
+    .edu_container{
+      background: rgb(128, 128, 128, 0.2);
+      border-radius: 5px;
+    }
     padding: 2%;
     width: 100%;
     font-family: 'poppins', sans-serif;
@@ -119,6 +121,7 @@
 
 
     .row{
+      padding: 1%;
       margin-top: 2%;
       display: flex;
       flex-wrap: wrap;

@@ -23,13 +23,16 @@ z-index: 50;
     .logo{
       margin-left: 1rem;
     }
+
     nav{
       position: absolute;
       right: 5rem;
+
       ul{
         display: flex;
         gap: 30px;
         list-style: none;
+
         a{
           display: block;
           text-decoration: none;
@@ -39,6 +42,7 @@ z-index: 50;
           font-weight: 600;
           font-family: 'poppins', sans-serif;
           line-height: 50px;
+
         }
       }
     }
