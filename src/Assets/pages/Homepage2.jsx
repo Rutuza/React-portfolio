@@ -8,7 +8,7 @@ function Homepage2() {
     const [text] = useTypewriter({
         words: ['Jyotika Dalal', 'Developer', 'UI/UX Designer', 'Photographer', 'Eppigrammatist', 'Senior at Amity University'],
         loop: {},
-        typeSpeed: 120,
+        typeSpeed: 122,
     });
 
   return (
