@@ -6,29 +6,28 @@
     .pagename{
         font-family: "Josefin sans", sans-serif;
         font-size: 2rem;
-        margin-top: 8%;
+        
         font-style: italic;
         font-weight: 700;
     }
 
-    .sk-container{
-        margin-top: 3%;
-        font-family: 'poppins', sans-serif;
-        // position: absolute;
-        // left: 0;
-        padding-left: 1%;
+    .container{
+        display: flex;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        margin-top: 3rem;
 
-        h1{
-            font-size: 2rem;            
+        .sk-para1{
+            max-width: 50%;
+
         }
 
-        p{
-            margin-top: 1%;
-            width: 49%;
-            text-align: justify;
+        .sparkle-emoji{
+            position: absolute;
+            right: 10%;
+            top: 25%;
         }
-
-        
     }
     
 }
