@@ -1,66 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Qwigley&display=swap');
 
 *{
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-nav{
-  width: 100%;
-  border-bottom: 2px solid black;
-  padding: 0;
-  background-color: white;
-  
+#header{
+border-bottom: 2px solid black;
+position: sticky;
+top: 0;
+z-index: 50;
+
   .container{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 100%;
+    background: white;
+    
     .logo{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      
-      .symbol{
-        font-size: 50px;
-        font-family: 'Qwigley', cursive;
-      }
-
-      h5{
-          font-family: 'poppins', sans-serif;
-          font-size: 0.6rem;
-          font-weight: 500;
-      }
+      margin-left: 1rem;
     }
 
-    .nav-item{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    nav{
       position: absolute;
       right: 5rem;
 
       ul{
         display: flex;
-        list-style-type: none;
+        gap: 30px;
+        list-style: none;
 
         a{
+          display: block;
           text-decoration: none;
+          cursor: pointer;
           color: black;
-          font-weight: 590;
+          font-size: 1rem;
+          font-weight: 600;
+          font-family: 'poppins', sans-serif;
+          line-height: 50px;
 
-          .list{
-            padding-inline: 0.8rem;
-            font-size: 1rem;
-            font-weight: 700;
-            font-family: 'poppins', sans-serif;
-            cursor: pointer;
-          }    
-        }      
+        }
       }
     }
   }
 }
-

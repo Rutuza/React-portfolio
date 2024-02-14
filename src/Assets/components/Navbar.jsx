@@ -1,29 +1,27 @@
 import React from "react";
 import { Navbutton } from "../img/icon";
+import logo from "../SVG/logo.svg";
+
+
 function Navbar() {
   return (
-    <nav className="navbar" id="navbar">
+    <header id="header">
       <div className="container">
         <div className="logo">
-          <div className="symbol">J</div>
-          <h5>Jyotika <br />Dalal</h5>
+          <img src={logo} alt="" srcset="" />
         </div>
-
-        <div className="nav-item">
+        <nav>
           <ul>
-            <a href="/"><li className="list">Home</li></a>
-            <a href="/about"><li className="list">About</li></a>
-            <a href="/skills"><li className="list">Skills</li></a>
-            <a href="/work"><li className="list">Work</li></a>
-            <a href="/contact"><li className="list">Contact</li></a>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/skills">Skills</a></li>
+            <li><a href="/work">Work</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
-          
-          {/* <div className="last-btn">
-            <Navbutton className="icon" />
-          </div> */}
-        </div>
+        </nav>
+
       </div>
-    </nav>
+    </header>
   );
 }
 

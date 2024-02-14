@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-// import pfp from "../SVG/pfp.svg"
+import pfp from "../SVG/pfp.svg"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -14,8 +14,8 @@ function AboutPage() {
 
         <div id="flex-container">
           <div className="pfp">
-            {/* <img src={pfp} alt="" srcset="" /> */}
-            <div className="pfp-circle"></div>
+            <img src={pfp} alt="" srcset="" />
+            {/* <div className="pfp-circle"></div> */}
           </div>
           <div className="about-content">
             <div className="inv-comma">"</div>
