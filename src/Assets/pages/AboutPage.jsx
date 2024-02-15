@@ -95,8 +95,8 @@ function AboutPage() {
                 </div>
                 <div className="side-by-side">
                   <h3 className="edu-type">
-                    Senior Secondary Education {"| "}
-                    <span className="stream">PCM</span>
+                    Senior Secondary Education |
+                    <span className="stream"> PCM</span>
                   </h3>
                   <div className="grade-info">
                     I received a divisional grade of 78.3% for my +2 in the
@@ -140,10 +140,10 @@ function AboutPage() {
                 <div className="">
                   <b className="uni-name">Teachnook Ed.Tech firm, Bangalore</b>
                   <br />
-                  <b className="year">01 Jul - 31 Sep'22</b>
+                  <b className="year">01 Jul - 31 Sep 2022</b>
                 </div>
                 <div className="side-by-side">
-                  <h3 className="edu-type">Frontend development {"| "}   <span className="stream">HTML, CSS3, JavaScript, Sass</span>
+                  <h3 className="edu-type">Frontend development | <span className="stream">HTML, CSS3, JavaScript, Sass</span>
                   </h3>
                   <div className="grade-info">
                     Collaborated with the front-end development team to implement
@@ -158,7 +158,7 @@ function AboutPage() {
                 <div className="">
                   <b className="uni-name">Nullclass Ed.tech firm, Bangalore</b>
                   <br />
-                  <b className="year">07 Jul - Present</b>
+                  <b className="year">07 Jul - 31 Nov 2023</b>
                 </div>
                 <div className="side-by-side">
                   <h3 className="edu-type">
