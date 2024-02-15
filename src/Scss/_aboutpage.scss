@@ -5,6 +5,7 @@
 {
   // background-color: #E2E2E2;
   width: 100%;
+
   .pagename
   {
     font-family: 'Josefin sans', sans-serif;
@@ -13,8 +14,16 @@
     font-style: italic;
     font-weight: 700;
 
+    @media only screen and (max-width: 380px){
+      text-align: center;
+      font-size: 1.5rem;
+      width: 100%;
+      margin-top: 8%;
+    }
   }
-  
+
+
+  }
   #flex-container
   {
     padding: 2%;
@@ -23,7 +32,9 @@
     justify-content: space-between;
     position: relative;
     
-    
+    @media only screen and (max-width: 380px){
+        display: block;
+    }
     .pfp-circle{
       position: absolute;
       top: 2;
@@ -38,12 +49,16 @@
     .about-content
     {
       width: 50%;
+
       .inv-comma{
         font-size: 3.5rem;
         font-family: 'poppins', sans-serif;
-        // color: #ffa800;
         color: #C1A6F9;
         z-index: 5;
+
+        @media only screen and (max-width: 380px){
+          position: relative;
+         }
       }
       
       .intro
@@ -52,6 +67,12 @@
         margin-left: 5%;
         font-family: 'poppins', sans-serif;
         text-align: justify;
+
+        @media only screen and (max-width: 380px){
+          position: absolute;   
+          margin-top: -10%;
+          margin-right: 5%;
+         }
       }
 
       .prs-info{
@@ -82,23 +103,32 @@
         border-radius: 4px;
         background-color: rgb(34, 33, 33);
         color: #C1A6F9;
-        // color: #ffa800;
         padding: 2% 1%;
         margin: 0 5%;
         font-size: 1rem;
         font-weight: 700;
         cursor: pointer;
+
+        @media only screen and (max-width: 380px){
+          position: absolute;
+          top: 45rem;
+          left: 4rem;
+        }
       }
       .dwn-btn:hover{
         border: 3px solid #7152ad;
         background-color: transparent;
         color: #7152ad;
       } 
+
     }
   }
+  
 
   #edu, #exp{
-    
+    @media only screen and (max-width: 380px){
+      margin-top: 250%;
+    }
     .edu_container{
       background: rgb(128, 128, 128, 0.2);
       border-radius: 5px;
@@ -109,10 +139,8 @@
 
     .sec-name{
       font-size: 2rem;
-
       .hr-line{
         display: flex;
-        position: absolute;
         width: 96%;
         border: 1.5px solid black;
       }
@@ -140,7 +168,6 @@
         text-align: justify;
 
       .stream{
-        // color: #ffa800;
         color: #947ec0;
         font-size: 0.9rem;
       }
@@ -149,7 +176,7 @@
         }
       }
     }
-  }
+
 
 
 
