@@ -70,20 +70,20 @@ function AboutPage() {
             </div>
             <div className="edu_container">
               <div className="row">
-                <div className="">
+                <div className="sch-title">
                   <b className="uni-name">
                     Ryan International School, Bhopal (M.P)
                   </b>{" "}
                   <br />
                   <b className="year">2017 - 2018</b>
                 </div>
-                <div className="side-by-side">
-                  <h3 className="edu-type">Higher Secondary Education</h3>
-                  <div className="grade-info">
-                    I received a divisional grade of 72.4% for my matriculation in
-                    the 2017-2018 school year at Ryan International School,
-                    Bhopal, Madhya Pradesh.
-                  </div>
+                <div className="side-by-side">                 
+                    <h3 className="edu-type">Higher Secondary Education</h3>
+                    <div className="grade-info">
+                      I received a divisional grade of 72.4% for my matriculation in
+                      the 2017-2018 school year at Ryan International School,
+                      Bhopal, Madhya Pradesh.
+                    </div> 
                 </div>
               </div>
 

@@ -5,7 +5,11 @@
 {
   // background-color: #E2E2E2;
   width: 100%;
-
+  .top-section{
+    @media only screen and (max-width: 400px){
+      position: relative;
+    }
+  }
   .pagename
   {
     font-family: 'Josefin sans', sans-serif;
@@ -14,7 +18,7 @@
     font-style: italic;
     font-weight: 700;
 
-    @media only screen and (max-width: 380px){
+    @media only screen and (max-width: 400px){
       text-align: center;
       font-size: 1.5rem;
       width: 100%;
@@ -32,7 +36,7 @@
     justify-content: space-between;
     position: relative;
     
-    @media only screen and (max-width: 380px){
+    @media only screen and (max-width: 400px){
         display: block;
     }
     .pfp-circle{
@@ -56,7 +60,7 @@
         color: #C1A6F9;
         z-index: 5;
 
-        @media only screen and (max-width: 380px){
+        @media only screen and (max-width: 400px){
           position: relative;
          }
       }
@@ -68,10 +72,11 @@
         font-family: 'poppins', sans-serif;
         text-align: justify;
 
-        @media only screen and (max-width: 380px){
+        @media only screen and (max-width: 400px){
           position: absolute;   
-          margin-top: -10%;
-          margin-right: 5%;
+          top: 60%;
+          right: 2%;
+          
          }
       }
 
@@ -109,9 +114,9 @@
         font-weight: 700;
         cursor: pointer;
 
-        @media only screen and (max-width: 380px){
+        @media only screen and (max-width: 400px){
           position: absolute;
-          top: 45rem;
+          top: 42rem;
           left: 4rem;
         }
       }
@@ -126,12 +131,14 @@
   
 
   #edu, #exp{
-    @media only screen and (max-width: 380px){
-      margin-top: 250%;
-    }
+
     .edu_container{
       background: rgb(128, 128, 128, 0.2);
       border-radius: 5px;
+
+      @media only screen and (max-width: 400px){
+        margin-top: 5%;
+      }
     }
     padding: 2%;
     width: 100%;
@@ -141,7 +148,7 @@
       font-size: 2rem;
       .hr-line{
         display: flex;
-        width: 96%;
+        width: 100%;
         border: 1.5px solid black;
       }
       }
@@ -149,6 +156,7 @@
 
 
     .row{
+      position: relative;
       padding: 1%;
       margin-top: 2%;
       display: flex;
@@ -156,17 +164,30 @@
       justify-content: space-between;
       font-family: 'poppins', sans-serif;
 
-      .uni-name, .comp-name{
+      @media only screen and (max-width: 400px){
+        padding: 4%;
+        width: 100%;
+      }
+      .uni-name, .comp-name, .edu-type{
         color: black;
+        font-size: 1rem;
+        // @media only screen and (max-width: 400px){
+        //   font-size: 1.2rem;
+        // }
       }
       .year{
         font-size: 0.9rem;
         color: #C1A6F9;
       }
+
       .side-by-side{
         width: 35%;
         text-align: justify;
 
+        @media only screen and (max-width: 400px){
+          width: fit-content;
+        }
+        }
       .stream{
         color: #947ec0;
         font-size: 0.9rem;
@@ -175,8 +196,22 @@
           margin-top: 2%;
         }
       }
+      
+    
+
+    @media only screen and (max-width: 400px){
+      .edu-section{
+        position: absolute;
+        top: 125%;
+      }
+
     }
 
-
+    @media only screen and (max-width: 400px){
+      .exp-section{
+        position: absolute;
+        top: 230%;
+      }
+    }
 
 
