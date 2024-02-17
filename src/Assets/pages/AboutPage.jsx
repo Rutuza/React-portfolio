@@ -14,7 +14,7 @@ function AboutPage() {
         <section className="top-section">
           <div id="flex-container">
             <div className="pfp">
-              <img src={pfp} alt="" srcset="" />
+              <img src={pfp} alt="" srcset=""/>
             </div>
             <div className="about-content"> 
                 <div className="inv-comma">"</div>
@@ -68,24 +68,25 @@ function AboutPage() {
               Education <span className="hr-line"></span>
             </div>
             <div className="edu_container">
-              <div className="row">
-                <div className="sch-title">
-                  <b className="uni-name">
-                    Ryan International School, Bhopal (M.P)
-                  </b>{" "}
+            <div className="row">
+                <div className="">
+                  <b className="uni-name">Amity University, Gwalior (M.P)</b>{" "}
                   <br />
-                  <b className="year">2017 - 2018</b>
+                  <b className="year">2020 - Present</b>
                 </div>
-                <div className="side-by-side">                 
-                    <h3 className="edu-type">Higher Secondary Education</h3>
-                    <div className="grade-info">
-                      I received a divisional grade of 72.4% for my matriculation in
-                      the 2017-2018 school year at Ryan International School,
-                      Bhopal, Madhya Pradesh.
-                    </div> 
+                <div className="side-by-side">
+                  <h3 className="edu-type">
+                    Bachelor's of Technology (B.Tech) {"| "}
+                    <span className="stream">Computer Science</span>
+                  </h3>
+                  <div className="grade-info">
+                    Pursuing B. Tech. CSE at Amity University in Madhya Pradesh
+                    with a cumulative GPA of 7.87 as of the s semester.
+                  </div>
                 </div>
               </div>
 
+              
               <div className="row">
                 <div className="">
                   <b className="uni-name">R.D Public School, Betul (M.P)</b>{" "}
@@ -104,24 +105,26 @@ function AboutPage() {
                   </div>
                 </div>
               </div>
-
+              
               <div className="row">
-                <div className="">
-                  <b className="uni-name">Amity University, Gwalior (M.P)</b>{" "}
+                <div className="sch-title">
+                  <b className="uni-name">
+                    Ryan International School, Bhopal (M.P)
+                  </b>{" "}
                   <br />
-                  <b className="year">2020 - Present</b>
+                  <b className="year">2017 - 2018</b>
                 </div>
-                <div className="side-by-side">
-                  <h3 className="edu-type">
-                    Bachelor's of Technology (B.Tech) {"| "}
-                    <span className="stream">Computer Science</span>
-                  </h3>
-                  <div className="grade-info">
-                    Pursuing B. Tech. CSE at Amity University in Madhya Pradesh
-                    with a cumulative GPA of 7.69 as of the sixth semester.
-                  </div>
+                <div className="side-by-side">                 
+                    <h3 className="edu-type">Higher Secondary Education</h3>
+                    <div className="grade-info">
+                      I received a divisional grade of 72.4% for my matriculation in
+                      the 2017-2018 school year at Ryan International School,
+                      Bhopal, Madhya Pradesh.
+                    </div> 
                 </div>
               </div>
+
+
             </div>
           </div>
         </section>
