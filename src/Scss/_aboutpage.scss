@@ -6,7 +6,7 @@
   // background-color: #E2E2E2;
   width: 100%;
   .top-section{
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 576px){
       position: relative;
     }
   }
@@ -18,7 +18,7 @@
     font-style: italic;
     font-weight: 700;
 
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 576px){
       text-align: center;
       font-size: 1.5rem;
       width: 100%;
@@ -36,23 +36,25 @@
     justify-content: space-between;
     position: relative;
     
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 576px){
         display: block;
     }
-    .pfp-circle{
-      position: absolute;
-      top: 2;
-      width: 18rem;
-      height: 40vh;
-      background-color: #cab6f2;
-      border: 2px solid black;
-      border-radius: 60%;
-      z-index: 1;
+
+    .pfp{
+      @media only screen and (max-width: 576px){
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+      }
     }
     
     .about-content
     {
       width: 50%;
+      
+      @media only screen and (max-width:576px){
+        width: fit-content;
+      }
 
       .inv-comma{
         font-size: 3.5rem;
@@ -60,7 +62,7 @@
         color: #C1A6F9;
         z-index: 5;
 
-        @media only screen and (max-width: 400px){
+        @media only screen and (max-width: 576px){
           position: relative;
          }
       }
@@ -72,10 +74,11 @@
         font-family: 'poppins', sans-serif;
         text-align: justify;
 
-        @media only screen and (max-width: 400px){
-          position: absolute;   
-          top: 60%;
-          right: 2%;
+        @media only screen and (max-width: 576px){
+          // position: absolute;   
+          // top: 60%;
+          // right: 2%;
+          width: fit-content;
           
          }
       }
@@ -114,10 +117,9 @@
         font-weight: 700;
         cursor: pointer;
 
-        @media only screen and (max-width: 400px){
-          position: absolute;
-          top: 42rem;
-          left: 4rem;
+        @media only screen and (max-width: 576px){
+          display: flex;
+          justify-content: center;
         }
       }
       .dwn-btn:hover{
@@ -136,7 +138,7 @@
       background: rgb(128, 128, 128, 0.2);
       border-radius: 5px;
 
-      @media only screen and (max-width: 400px){
+      @media only screen and (max-width: 576px){
         margin-top: 5%;
       }
     }
@@ -164,7 +166,7 @@
       justify-content: space-between;
       font-family: 'poppins', sans-serif;
 
-      @media only screen and (max-width: 400px){
+      @media only screen and (max-width: 576px){
         padding: 4%;
         width: 100%;
       }
@@ -182,12 +184,12 @@
         width: 35%;
         text-align: justify;
 
-        @media only screen and (max-width: 400px){
+        @media only screen and (max-width: 576px){
           width: fit-content;
         }
 
         .edu-type, .stream{
-          @media only screen and (max-width: 400px){
+          @media only screen and (max-width: 576px){
             font-size: 0.9rem;
             margin-top: 5%;
           }
@@ -202,21 +204,6 @@
         }
       }
       
-    
 
-    @media only screen and (max-width: 400px){
-      .edu-section{
-        position: absolute;
-        top: 125%;
-      }
-
-    }
-
-    @media only screen and (max-width: 400px){
-      .exp-section{
-        position: absolute;
-        top: 245%;
-      }
-    }
 
 
