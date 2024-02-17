@@ -14,7 +14,7 @@ function AboutPage() {
         <section className="top-section">
           <div id="flex-container">
             <div className="pfp">
-              {/* <img src={pfp} alt="" srcset="" /> */}
+              <img src={pfp} alt="" srcset="" />
               {/* <div className="pfp-circle"></div> */}
             </div>
             <div className="about-content"> 
