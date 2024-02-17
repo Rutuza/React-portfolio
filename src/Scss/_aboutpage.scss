@@ -1,10 +1,17 @@
 @use'variable';
 
 
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #about
 {
   // background-color: #E2E2E2;
   width: 100%;
+
   .top-section{
     @media only screen and (max-width: 576px){
       position: relative;
@@ -25,33 +32,30 @@
       margin-top: 8%;
     }
   }
-
-
   }
+
   #flex-container
   {
-    padding: 2%;
+    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20%;
     position: relative;
     
     @media only screen and (max-width: 576px){
         display: block;
     }
 
-    .pfp{
-      @media only screen and (max-width: 576px){
-        display: flex;
-        justify-content: center;
-        margin: 5%;
-      }
-    }
+    // .pfp{
+    //   @media only screen and (max-width: 576px){
+
+    //   }
+    // }
     
     .about-content
     {
       width: 50%;
-      
+
       @media only screen and (max-width:576px){
         width: fit-content;
       }
@@ -69,18 +73,9 @@
       
       .intro
       {
-        margin-top: -3%;
-        margin-left: 5%;
         font-family: 'poppins', sans-serif;
         text-align: justify;
 
-        @media only screen and (max-width: 576px){
-          // position: absolute;   
-          // top: 60%;
-          // right: 2%;
-          width: fit-content;
-          
-         }
       }
 
       .prs-info{
@@ -104,15 +99,12 @@
       }
 
       .dwn-btn{
-        width: 30%;
-        min-width: 50%;
-        text-align: center;
+        width: 50%;
         border: 2px solid black;
         border-radius: 4px;
         background-color: rgb(34, 33, 33);
         color: #C1A6F9;
-        padding: 2% 1%;
-        margin: 0 5%;
+        padding: 2% 1%; 
         font-size: 1rem;
         font-weight: 700;
         cursor: pointer;
@@ -122,6 +114,7 @@
           justify-content: center;
         }
       }
+
       .dwn-btn:hover{
         border: 3px solid #7152ad;
         background-color: transparent;
@@ -131,7 +124,6 @@
     }
   }
   
-
   #edu, #exp{
 
     .edu_container{
@@ -142,6 +134,7 @@
         margin-top: 5%;
       }
     }
+    
     padding: 2%;
     width: 100%;
     font-family: 'poppins', sans-serif;
