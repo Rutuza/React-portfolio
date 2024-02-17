@@ -14,7 +14,7 @@ function AboutPage() {
         <section className="top-section">
           <div id="flex-container">
             <div className="pfp">
-              <img src={pfp} alt="" srcset=""/>
+              {/* <img src={pfp} alt="" srcset=""/> */}
             </div>
             <div className="about-content"> 
                 <div className="inv-comma">"</div>
@@ -105,7 +105,7 @@ function AboutPage() {
                   </div>
                 </div>
               </div>
-              
+
               <div className="row">
                 <div className="sch-title">
                   <b className="uni-name">
