@@ -1,6 +1,6 @@
 import React from "react";
-import { Navbutton } from "../img/icon";
-import logo from "../SVG/logo.svg";
+import { Navbutton } from "../Assets/img/icon";
+import logo from "../Assets/SVG/logo.svg";
 
 
 function Navbar() {

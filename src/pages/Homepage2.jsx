@@ -1,6 +1,6 @@
 import React from 'react';
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
-import circles from "../SVG/circles.svg"
+import circles from "../Assets/SVG/circles.svg";
 import Navbar from '../components/Navbar';
 
 

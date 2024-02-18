@@ -11,7 +11,6 @@ html, body{
 {
   // background-color: #E2E2E2;
   width: 100%;
-
   .top-section{
     @media only screen and (max-width: 576px){
       position: relative;
@@ -46,11 +45,11 @@ html, body{
         display: block;
     }
 
-    // .pfp{
-    //   @media only screen and (max-width: 576px){
+    .pfp{
+      @media only screen and (max-width: 576px){
 
-    //   }
-    // }
+      }
+    }
     
     .about-content
     {
@@ -135,12 +134,12 @@ html, body{
       }
     }
     
-    padding: 2%;
     width: 100%;
     font-family: 'poppins', sans-serif;
 
     .sec-name{
       font-size: 2rem;
+      padding-top: 5%;
       .hr-line{
         display: flex;
         width: 100%;
@@ -152,7 +151,6 @@ html, body{
 
     .row{
       position: relative;
-      padding: 1%;
       margin-top: 2%;
       display: flex;
       flex-wrap: wrap;
