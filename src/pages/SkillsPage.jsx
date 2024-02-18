@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import sparkle from "../SVG/sparkle.svg";
+import sparkle from "../Assets/SVG/sparkle.svg";
 
 
 function SkillsPage() {

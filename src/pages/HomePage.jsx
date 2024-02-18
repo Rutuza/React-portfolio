@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import { Fingerprint } from "../img/icon";
+
+import { Fingerprint } from "../Assets/SVG/Fingerprint.svg";
 import Loading from "../components/Loading";
+
 import {
   BiLogoInstagram,
   BiLogoPinterestAlt,

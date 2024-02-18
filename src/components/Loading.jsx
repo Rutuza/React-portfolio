@@ -1,5 +1,5 @@
 import React from "react";
-import { Barcode } from "../img/icon";
+import { Barcode } from "../Assets/img/icon";
 function Loading() {
   return (
     <div className="loading">

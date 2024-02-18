@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import pfp from "../SVG/pfp.svg"
+import pfp from "../Assets/SVG/pfp.svg";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
-// import Aboutme from '../components/Aboutme';
+
 
 function AboutPage() {
   return (
@@ -14,7 +15,7 @@ function AboutPage() {
         <section className="top-section">
           <div id="flex-container">
             <div className="pfp">
-              {/* <img src={pfp} alt="" srcset=""/> */}
+              <img src={pfp} alt="" srcset=""/>
             </div>
             <div className="about-content"> 
                 <div className="inv-comma">"</div>
